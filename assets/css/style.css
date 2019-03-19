@@ -143,7 +143,7 @@ body {
 }
 
 .gallery {
-    background-image: url("./gallery.jpg");
+    background-image: url("../images/gallery.jpg");
     background-size: cover;
     background-repeat: no-repeat;  
     height: 700px;
