@@ -1,0 +1,260 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: white;
+}
+
+body {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 16px;
+    /* line-height: 1.5px; */
+    background-color:rgb(255, 255, 255);
+}
+
+.full-screen {
+    min-height: 100vh;
+}
+
+.text-center {
+    text-align: center 
+}
+
+.align-items-center {
+
+    align-items: center 
+}
+
+.justify-content-center {
+
+    justify-content: center 
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mouse-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    height: 42px;
+    width: 30px;
+    margin: auto;
+    z-index: 10;
+    border-radius: 15px;
+    border: 3px solid rgb(145, 17, 17);
+    background: rgb(0, 0, 0);
+}
+
+.mouse-icon .wheel {
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    background: rgb(148, 116, 11);
+    width: 3px;
+    height: 8px;
+    top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.more-info {
+    background-color: pink;
+    padding-top: 100px;
+    padding-bottom: 100px;    
+}
+
+.more-info img {
+    float: right;
+    width: 300px;
+    height: 400px;
+    text-align:right;
+    border: 10px solid;
+    border-radius: 30px 30px 30px 30px;
+    border-color: black;
+}
+
+.more-info h4 {
+    font-family: 'Margarine', cursive;
+    color: white;
+    width: 250px;
+    border-radius: 30px 30px 30px 30px;
+    background-color: black;
+    line-height: 40px;
+}
+
+.hobbies {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.hobbies h2 {
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+
+.hobbies i {
+    color: orange;
+    font-size: 5rem;
+    padding-bottom: 30%;
+    /* class: animated infinite bounce; */
+    margin-left: 20%;
+    z-index: 5;
+}
+
+.hobbies .hint {
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: rgba(167, 116, 235, 0.9);
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 5;
+}
+
+.hobbies .hint:hover {
+    opacity: 1;
+}
+
+.hobbies .hint span.word {
+    background-color: rgb(201, 131, 241);
+    display: block;
+    font-size: 1.5rem;
+    color: black;
+    text-transform: initial;   
+}
+
+.gallery {
+    background-image: url("./gallery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 700px;
+    }
+
+.gallery h3{
+    text-align: center;
+    font-size: 44px;
+    text-shadow: 4px 4px rgb(104, 97, 97);
+    font-family: 'Baloo Chettan', cursive;
+    padding-top: 50px; 
+}
+
+.mona-lisa img{
+    width: 400px;
+    height: 400px; 
+}
+
+.Ending {
+    text-align: center;
+}
+
+.Ending h2 {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.Ending p{
+     margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 50px;    
+}
+
+.contacts {
+    /* text-align: center; */
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 10% 10%;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.contacts i {
+    text-align: center;
+    margin-left: 10%;
+    font-size: 5rem;
+}
+
+.contacts a{
+    margin-right: 150px;
+}
+
+.fadeIn {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 5s infinite linear;
+    -o-animation: bounce 5s infinite linear;
+    -webkit-animation: bounce 5s infinite linear;
+    animation: bounce 5s infinite linear;
+    color:000;
+    }
+
+.bounce {
+display: inline-block;
+position: relative;
+-moz-animation: bounce 1.5s infinite linear;
+-o-animation: bounce 1.5s infinite linear;
+-webkit-animation: bounce 1.5s infinite linear;
+animation: bounce 1.5s infinite linear;
+color:000;
+}
+
+.slideInUp {
+display: inline-block;
+position: relative;
+-moz-animation: jello 1.5s infinite linear;
+-o-animation: jello 1.5s infinite linear;
+-webkit-animation: jello 1.5s infinite linear;
+animation: jello 1.5s infinite linear;
+color:000;
+}
+
+.lightSpeedOut {
+display: inline-block;
+position: relative;
+-moz-animation: fadeInUp 1.5s infinite linear;
+-o-animation: fadeInUp 1.5s infinite linear;
+-webkit-animation: fadeInUp 1.5s infinite linear;
+animation: fadeInUp 1.5s infinite linear;
+animation-iteration-count: infinite;
+color:000;
+}
+
+.heartBeat {
+animation-duration: 3s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+}
+
+.swing {
+    display: inline-block;
+    position: relative;
+    -moz-animation: swing 0.25s infinite linear;
+    -o-animation: swing 0.25s infinite linear;
+    -webkit-animation: swing 0.25s infinite linear;
+    animation: swing 0.25s infinite linear;
+}
+
+.hinge {
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}

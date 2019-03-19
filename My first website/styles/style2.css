@@ -1,0 +1,29 @@
+h1 {
+<br>;
+font-family: "Merriweather", arial, serif;
+text-decoration: underline;
+text-shadow: 1px 1px 1px black;
+}
+
+a:hover + span {
+    display: block;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.first {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 12px;
+  background-color: #dddddd;
+}
+
+#myself {
+font-weight: bold; 
+}
+

@@ -1,0 +1,47 @@
+h1 {
+  colour: red;
+font-family:'Indie Flower', cursive;
+  background-color: white;
+text-align: center;
+font-size: 80px;
+align-content: center;
+width: 50%;
+  
+}
+
+
+body {
+ background-color: lightblue;
+}
+
+form {
+text-align: right;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 12px;
+  background-color: #dddddd;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+body {
+    color: sky blue;
+}
+
+p {
+font-family:'Lato', sans-serif; !important
+}
