@@ -200,10 +200,10 @@ body {
 .fadeIn {
     display: inline-block;
     position: relative;
-    -moz-animation: bounce 5s infinite linear;
-    -o-animation: bounce 5s infinite linear;
-    -webkit-animation: bounce 5s infinite linear;
-    animation: bounce 5s infinite linear;
+    -moz-animation: fadeIn 5s infinite linear;
+    -o-animation: fadeIn 5s infinite linear;
+    -webkit-animation: fadeIn 5s infinite linear;
+    animation: fadeIn 5s infinite linear;
     color:000;
     }
 
@@ -220,20 +220,20 @@ color:000;
 .slideInUp {
 display: inline-block;
 position: relative;
--moz-animation: jello 1.5s infinite linear;
--o-animation: jello 1.5s infinite linear;
--webkit-animation: jello 1.5s infinite linear;
-animation: jello 1.5s infinite linear;
+-moz-animation: slideInUp 1.5s infinite linear;
+-o-animation: slideInUp 1.5s infinite linear;
+-webkit-animation: slideInUp 1.5s infinite linear;
+animation: slideInUp 1.5s infinite linear;
 color:000;
 }
 
 .lightSpeedOut {
 display: inline-block;
 position: relative;
--moz-animation: fadeInUp 1.5s infinite linear;
--o-animation: fadeInUp 1.5s infinite linear;
--webkit-animation: fadeInUp 1.5s infinite linear;
-animation: fadeInUp 1.5s infinite linear;
+-moz-animation: lightSpeedOut 1.5s infinite linear;
+-o-animation: lightSpeedOut 1.5s infinite linear;
+-webkit-animation: lightSpeedOut 1.5s infinite linear;
+animation: lightSpeedOut1.5s infinite linear;
 animation-iteration-count: infinite;
 color:000;
 }
